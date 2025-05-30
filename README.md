@@ -1,0 +1,29 @@
+# PRNG F 32
+
+It's an extremely-fast, statistically-strong PRNG with 32-bit integers and a minimum period of 2¹⁰²⁴.
+
+`prng_f_32()` is the randomization function that generates 32 32-bit, pseudorandom, unsigned integers.
+
+It accepts the following argument.
+
+1. `s` is the pointer that contains the state. Each state integer must be initialized with any combination of values.
+
+It outputs the result in `blocks`.
+
+It's in the same class as SIMD-enhanced SHISHUA and Xoshiro256+x8.
+
+It has a minimum period of 2¹⁰²⁴.
+
+It has an approximated maximum period of 2¹⁰⁹⁰, although no cycle is guaranteed to reach a full period of 2¹⁰⁹⁰.
+
+Incrementing either `a` or `c` by `1` behaves as an interdimensional jump function that starts a different cycle with a period of 2¹⁰²⁴.
+
+It's the fastest 32-bit PRNG that generates numbers in segments of 32 32-bit integers, has a period of at least 2¹⁰²⁴ and passes statistical tests in `stdin32` PractRand with TBs of numbers.
+
+I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
+
+There aren't any broken cycles smaller than the aforementioned minimum period of 2¹⁰²⁴.
+
+Zeroland escapes immediately after generating 1 subsequent number.
+
+As an obligatory disclaimer, it's not a CSPRNG for use in cryptography.
