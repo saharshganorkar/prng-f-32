@@ -8,8 +8,6 @@ It accepts the following argument.
 
 1. `s` is the pointer that contains the state. Each state integer must be initialized with any combination of values.
 
-It outputs the result in `blocks`.
-
 It's in the same class as SIMD-enhanced SHISHUA and Xoshiro256+x8.
 
 It has a minimum period of 2¹⁰²⁴ without broken cycles.
