@@ -8,7 +8,7 @@ It accepts the following argument.
 
 1. `s` is the pointer that contains the state. Each state integer must be initialized with any combination of values.
 
-It's in the same class as SIMD-enhanced SHISHUA and Xoshiro256+x8.
+It's in the same class as SIMD-enhanced SHISHUA.
 
 It has a minimum period of 2¹⁰²⁴ without broken cycles.
 
