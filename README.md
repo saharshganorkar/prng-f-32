@@ -14,7 +14,7 @@ It has a minimum period of 2¹⁰²⁴ without broken cycles.
 
 It has an approximated maximum period of 2¹⁰⁹⁰, although no cycle is guaranteed to reach a full period of 2¹⁰⁹⁰.
 
-Incrementing either `a` or `c` by `1` behaves as an interdimensional jump function that starts a different cycle with a period of 2¹⁰²⁴.
+Incrementing either `a` or `c` by `1` behaves as an interdimensional jump function that starts a different cycle with a minimum period of 2¹⁰²⁴.
 
 Zeroland escapes immediately after generating 1 subsequent number.
 
